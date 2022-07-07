@@ -10,7 +10,6 @@
 <body>
     <div>
         <div id="header">
-            <img src="https://www.programming-hero.com/img/logo.png" id="logo">
             <p class="title">Give a helping hand to those who need it!</p>
             <p class="quote">
                 “It’s easier to take than to give. It’s nobler to give than to take. The thrill of taking lasts a day. The thrill of giving lasts a lifetime.“
@@ -125,8 +124,11 @@
                     Please drop your mail.
                 </p>
                 <div class="email-box">
-                    <input type="email" placeholder="Email"></input>
-                    <a class="subscribe-button" href="#">Subscribe Now</a>
+                    <form action="#" method="post">
+                        <input type="email" required placeholder="Email"></input>
+                        <input type="submit" class="subscribe-button" value="Subscribe Now" />
+                        <!-- <a class="subscribe-button" href="#">Subscribe Now</a> -->
+                    </form>
                 </div>    
                 
             </section>
