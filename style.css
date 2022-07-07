@@ -1,0 +1,199 @@
+body{
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Header section */
+
+#header{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    box-shadow: inset 0px -500px 30px #00000096;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#logo{
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    float: left;
+}
+#header p{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+#header p.title{
+    font-size: 4vw;
+    font-weight: bold;
+    padding-top: 15vh;
+}
+#header p.quote{
+    font-size: 1.1vw;
+    width: 35%;
+    font-style: italic;
+    padding-top: 15px;    
+    margin-bottom: 25px;
+}
+.button{
+    background-color: #FF5959;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+/* Main Content  */
+
+.content-box{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.content-box .title{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.content-box .sub-title{
+    font-size: 18px;
+    color: #777;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.horizontal-box-amount{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.amount{
+    padding-top: 2px;
+    height: 80px;
+    background: #ececec;
+    border-radius: 5px;
+    border: 1px solid #b6b6b6;
+    margin: 0px 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+    width: 110px;
+    cursor: pointer;
+}
+.active{
+    background: #e7afaf;
+    font-weight: bolder;
+    border: 2px solid rgb(228, 71, 71);
+}
+
+.input-amount input{
+    width: 45%;
+    margin-top: 20px;
+    height: 50px;
+    border: 0px;
+    border-bottom: 2px solid #ccc !important;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.vertical-box-plans{
+    display: inline-flex;
+}
+.plan{
+    width: 220px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0px 10px;
+}
+.plan img{
+    margin-top: 20px;
+}
+.plan h3{
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.plan description{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.email-box{
+    background: #a6d8a6c9;
+    height: 100px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.subscribe-button{
+    width: 200px;
+    background: #FF5959;
+    padding: 12.5px;
+    margin-left: -3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.email-box input{
+    height: 45px;
+    width: 250px;
+    padding-left: 15px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.volunteer{
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 10px 30px;
+    box-shadow: 0px 3px 5px #d0d0d0;
+    border-radius: 10px;
+}
+.volunteer img{
+    border-radius: 100px;
+    height: 150px;
+    margin-bottom: -10px;
+}
+
+.volunteer-name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+
+/* Footer  */
+
+
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1d1d1d;
+    text-align: center;
+    color: #f4f4f4;
+    padding-top: 5px;
+}
